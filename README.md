@@ -1,1 +1,1 @@
-Bài toán sử dụng mô hình LSTM và BiLSTM"# Machine_Translation_BiLSTM" 
+Bài toán được giải quyết bài 2 mô hình là LSTM và BiLSTM
