@@ -102,7 +102,7 @@ Một số cải tiến có thể áp dụng cho mô hình trong tương lai:
 
 ## Kết quả
 
-```shell
+```text
 Context: and i want to talk to you about that because even more than giving is the capacity for us to do
 something smarter together for the greater good that lifts us both up and that can scale
 True Target: <START> và tôi muốn nói với bạn về điều đó bởi_vì thậm_chí nhiều hơn là cho đi là khả_năng chúng_ta
