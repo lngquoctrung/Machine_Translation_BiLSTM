@@ -100,6 +100,75 @@ Một số cải tiến có thể áp dụng cho mô hình trong tương lai:
 - Áp dụng kỹ thuật transfer learning từ các mô hình ngôn ngữ lớn
 - Thêm cơ chế xử lý từ chưa biết (unknown words)
 
+## Kết quả
+
+```shell
+Context: and i want to talk to you about that because even more than giving is the capacity for us to do
+something smarter together for the greater good that lifts us both up and that can scale
+True Target: <START> và tôi muốn nói với bạn về điều đó bởi_vì thậm_chí nhiều hơn là cho đi là khả_năng chúng_ta
+cùng nhau làm điều gì đó thông_minh hơn vì lợi_ích lớn hơn nâng cả hai chúng_ta lên và điều đó
+có_thể mở_rộng  <END>
+Predict: và tôi muốn nói với bạn về điều đó bởi_vì thậm_chí còn tạo ra là khả_năng để chúng_ta làm điều gì đó
+thông_minh hơn cho đến điều tốt_đẹp hơn nâng cao hơn nâng hết con_người này lên và có_thể mở_rộng
+quy_mô  <end>
+========================================================================================================================
+Context: that's why i'm sitting here
+True Target: <START> đó là lý_do tại_sao tôi ngồi đây  <END>
+Predict: thật là lý_do tại_sao tôi đang ngồi đây  <end>
+========================================================================================================================
+Context: but i also want to point something else out each one of you is better than anybody else at something
+True Target: <START> nhưng tôi cũng muốn chỉ ra một điều khác mỗi người trong số các bạn đều giỏi hơn bất_kỳ ai
+khác ở một lĩnh_vực nào đó  <END>
+Predict: nhưng tôi cũng muốn điểm một cái khác mỗi người trong số các bạn giỏi hơn bất_kỳ ai khác vào một
+điều gì đó  <end>
+========================================================================================================================
+Context: that disproves that popular notion that if you're the smartest person in the room you're in the
+wrong room
+True Target: <START> điều đó bác_bỏ quan_niệm phổ_biến rằng nếu bạn là người thông_minh nhất trong phòng thì bạn
+đang ở nhầm phòng  <END>
+Predict: điều đó có quan_điểm phổ_biến rằng nếu bạn là người thông_minh nhất trong phòng bạn đang ở trong
+phòng sai thì không  <end>
+========================================================================================================================
+Context: so let me tell you about a hollywood party i went to a couple years back and i met this up and
+coming actress and we were soon talking about something that we both felt passionately about public
+art
+True Target: <START> vì_vậy hãy để tôi kể cho bạn nghe về một bữa tiệc ở hollywood mà tôi đã tham_dự vài năm
+trước và tôi đã gặp nữ diễn_viên đang lên này và chúng_tôi đã sớm nói về điều mà cả hai đều cảm_thấy
+say_mê nghệ_thuật công_cộng  <END>
+Predict: vì_vậy hãy để tôi kể cho bạn nghe về một bữa tiệc hollywood tôi đã đi sâu vào cách này và những
+người này lên và những người này đang sớm nói về điều gì đó mà cả chúng_ta đều cảm_thấy say_mê với
+nghệ_thuật công_cộng  <end>
+========================================================================================================================
+Context: and she had the fervent belief that every new building in los angeles should have public art in it
+True Target: <START> và cô có niềm tin nhiệt_thành rằng mọi tòa nhà mới ở los_angeles nên có nghệ_thuật công_cộng
+trong đó  <END>
+Predict: và cô ấy đã tin rằng mọi công_trình niềm tin mới ở los_angeles đặc_biệt có những nghệ_thuật
+công_cộng vào đó  <end>
+========================================================================================================================
+Context: she wanted a regulation for it and she fervently started — who is here from chicago
+True Target: <START> cô ấy muốn có một quy_định cho nó và cô ấy nhiệt_thành bắt_đầu ai đến từ chicago  <END>
+Predict: cô ấy muốn có quy_tắc cho nó và cô ấy đến mức bắt_đầu người ở đây từ chicago  <end>
+========================================================================================================================
+Context: — she fervently started talking about these bean shaped reflective sculptures in millennium park and
+people would walk up to it and they'd smile in the reflection of it and they'd take selfies together
+and they'd laugh
+True Target: <START> cô ấy bắt_đầu nhiệt_tình nói về những tác_phẩm điêu_khắc phản_chiếu hình hạt đậu này ở
+công_viên thiên_niên_kỷ và mọi người sẽ đi đến đó và họ sẽ mỉm cười khi phản_chiếu nó và họ sẽ chụp
+ảnh tự sướng cùng nhau và họ sẽ cười  <END>
+Predict: cô ấy thích đi nói về những tác_phẩm điêu_khắc bằng các cái điêu_khắc các tác_phẩm điêu_khắc các
+tác_phẩm điêu_khắc trong thiên_niên_kỷ thiên_niên_kỷ và mọi người sẽ bước lên tới nó và họ sẽ mỉm
+cười trước đó và họ sẽ thích nhau và cười nhau và họ cười  <end>
+========================================================================================================================
+Context: and as she was talking a thought came to my mind
+True Target: <START> và khi cô ấy đang nói một ý_nghĩ nảy ra trong đầu tôi  <END>
+Predict: và khi cô ấy đang nói_chuyện một suy_nghĩ đã đến được trong khi nào  <end>
+========================================================================================================================
+Context: i said i know someone you ought to meet
+True Target: <START> tôi nói tôi biết một người mà bạn nên gặp  <END>
+Predict: tôi nói tôi biết ai đó bạn phải gặp nhau  <end>
+========================================================================================================================
+```
+
 ## Tham khảo
 
 - [Sequence to Sequence Learning with Neural Networks](https://arxiv.org/abs/1409.3215)
